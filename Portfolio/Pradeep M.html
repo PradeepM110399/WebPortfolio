@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio - Pradeep M</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Pradeep M</h1>
+            <nav>
+                <ul id="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div id="menu-icon" class="menu-icon">&#9776;</div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2>Front-end Developer</h2>
+            <p>Building modern, responsive, and interactive websites with HTML, CSS, and JavaScript.</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hi, I'm Pradeep M, a front-end developer with a passion for creating beautiful and functional websites. I have 2 years of experience in building responsive and dynamic web applications using HTML, CSS, and JavaScript.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-list">
+                <div class="skill">
+                    <h3>HTML</h3>
+                    <div class="progress">
+                        <div class="progress-bar" data-skill-level="90%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>CSS</h3>
+                    <div class="progress">
+                        <div class="progress-bar" data-skill-level="85%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>JavaScript</h3>
+                    <div class="progress">
+                        <div class="progress-bar" data-skill-level="80%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>Responsive Design</h3>
+                    <div class="progress">
+                        <div class="progress-bar" data-skill-level="85%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1: Portfolio Website</h3>
+                <p>A responsive portfolio website showcasing my projects and skills.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2: E-commerce Website</h3>
+                <p>A dynamic and responsive e-commerce website built using HTML, CSS, and JavaScript.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Feel free to reach out to me for collaboration or any web development projects.</p>
+            <form action="mailto:your.email@example.com" method="post" enctype="text/plain">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Pradeep M. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+<!-- Modal -->
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span id="close-modal" class="close-btn">&times;</span>
+        <!-- Dynamic content will be loaded here from JS -->
+    </div>
+</div>
+
+</html>
